@@ -113,4 +113,14 @@ func main() {
 	default:
 		fmt.Println("Good evening.")
 	}
+
+	defer fmt.Println("then Defer statement 3.")
+	defer fmt.Println("then Defer statement 2,")
+	fmt.Println("This is executed first,")
+
+	fmt.Println("This is to show LIFO sequence of Defer. Start counting:")
+	defer fmt.Println("Done!")
+	for i := 0; i < 10; i++ {
+		defer fmt.Println(i)
+	}
 }

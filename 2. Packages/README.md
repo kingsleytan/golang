@@ -10,4 +10,4 @@
 - Variables without initialization are given zero value, `0`, `false` or `""`.
 - Declaring a variable without specifying type, will be inferred from the value on the right hand side.
 - `if`, `for` loop are surrounded by curly braces `{}`.
-- `defer` statement defers the execution of a function until the surrounding function returns.
+- [`defer`](https://tour.golang.org/flowcontrol/12) statement defers the execution of a function until the surrounding function returns. Last-in-first-out order.
