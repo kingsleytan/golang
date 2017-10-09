@@ -14,5 +14,5 @@
 2. Manage "Authorized redirect URIs".
 3. Understand more on [Google OAuth2](https://developers.google.com/identity/protocols/OAuth2ForDevices).
 <h2>
-<img src=".../img/deviceflow.png">
+<img src=".././img/deviceflow.png">
 </h2>
