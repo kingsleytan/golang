@@ -8,3 +8,9 @@
 3. The user logs in and gets back a code and the random string we gave him. He gets redirected back to our page, using a POST request to give us the code and state string.
 4. We verify if it’s the same state string. If it is then we use the code to ask google for a short-lived access token. We can save the code for future use to get another token later.
 5. We use the token to initiate actions regarding the user account.
+
+- Note:
+1. Go to [Google API Console](https://console.developers.google.com/apis) to create project > Go to "Credentials" > Save "ClientID" and "ClientSecret" in a safe place.
+2. Manage "Authorized redirect URIs".
+3. Understand more on [Google OAuth2](https://developers.google.com/identity/protocols/OAuth2ForDevices).
+<img src="Img/deviceflow.png">
