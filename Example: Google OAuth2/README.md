@@ -13,4 +13,6 @@
 1. Go to [Google API Console](https://console.developers.google.com/apis) to create project > Go to "Credentials" > Save "ClientID" and "ClientSecret" in a safe place.
 2. Manage "Authorized redirect URIs".
 3. Understand more on [Google OAuth2](https://developers.google.com/identity/protocols/OAuth2ForDevices).
-<img src="Img/deviceflow.png">
+<h2>
+<img src="assets/app/qr.png">
+</h2>
